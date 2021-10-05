@@ -1,0 +1,103 @@
+body 
+{
+	font-family: "Times New Roman";
+	margin: 0;
+	padding: 0;
+}
+
+#menu 
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-color: #9ACEEB;
+}
+
+nav 
+{
+	background-color: #9ACEEB;
+}
+
+footer 
+{
+	background-color: #9ACEEB;
+	text-align: center;
+}
+
+#logo 
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#name
+{
+	font-size: 28px;
+}
+
+#menu 
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: auto;
+	align-content:flex-start;
+}
+
+#menu li 
+{
+	list-style-type: none;
+}
+
+#table-test td
+{
+	text-align: center;
+}
+#table-test th 
+{
+	text-align: center;
+}
+
+.first
+{
+	background-color: #9ACEEB;
+}
+
+.second 
+{
+	background-color: #3B83BD;
+}
+
+#formar 
+{
+	order: 0;
+}
+
+#table-test 
+{
+	order: 1;
+}
+
+@media screen and (min-width: 768px) 
+{
+	#menu 
+	{
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	#table-test
+	{
+		order: 0;
+	}
+
+	#formar 
+	{
+		order: 1;
+	}
+
+}
